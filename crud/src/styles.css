@@ -1,0 +1,136 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #333; /* Preto escuro de fundo */
+	color: #fff; /* Texto branco */
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	color: #0cf714; /* Verde */
+	margin: 20px 0;
+}
+
+table {
+	width: 80%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	background-color: #444; /* Cinza escuro */
+}
+
+thead {
+	background-color: #222; /* Preto */
+}
+
+th,
+td {
+	padding: 10px;
+	border: 1px solid #555; /* Cinza claro */
+	text-align: left;
+}
+
+th {
+	color: #0cf714; /* Verde */
+}
+
+tbody tr:hover {
+	background-color: #555; /* Cinza médio */
+}
+
+.selecionada {
+	background-color: #e2dede; /* Verde para linha selecionada */
+	color: #000; /* Texto preto para contraste */
+}
+
+button {
+	background-color: #0cf714; /* Verde */
+	color: #fff; /* Texto branco */
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: #0b8a00; /* Verde mais escuro para hover */
+}
+
+dialog {
+	background-color: #444; /* Cinza escuro */
+	color: #fff; /* Texto branco */
+	border: none;
+	border-radius: 5px;
+	padding: 20px;
+	width: 300px;
+}
+
+dialog h2 {
+	color: #0cf714; /* Verde */
+	margin-top: 0;
+}
+
+form label {
+	display: block;
+	margin: 10px 0 5px;
+}
+
+form input {
+	width: calc(100% - 22px);
+	padding: 10px;
+	border: 1px solid #555; /* Cinza claro */
+	border-radius: 5px;
+	background-color: #333; /* Preto escuro */
+	color: #fff; /* Texto branco */
+}
+
+form input[type="number"]::-webkit-inner-spin-button,
+form input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none; /* Remove setas numéricas */
+	margin: 0;
+}
+
+.container {
+	text-align: center;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center; /* Centraliza os botões horizontalmente */
+	margin-bottom: 10px; /* Espaço entre os botões e a tabela */
+}
+
+.button-container button {
+	/* Estilos dos botões */
+	margin: 0 5px;
+}
+
+table {
+	margin: 0 auto;
+}
+
+#search {
+	padding: 10px;
+	border: 1px solid #555; /* Cinza claro */
+	border-radius: 5px;
+	background-color: #333; /* Preto escuro */
+	color: #fff; /* Texto branco */
+	width: 200px;
+}
+
+#pesquisar {
+	background-color: #0cf714; /* Verde */
+	color: #fff; /* Texto branco */
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+
+#pesquisar:hover {
+	background-color: #0b8a00; /* Verde mais escuro para hover */
+}

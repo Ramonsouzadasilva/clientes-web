@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bebidas</title>
+		<link rel="stylesheet" href="./src/styles.css" />
+		<script src="src/bebidas.js" type="module" defer></script>
+	</head>
+	<body>
+		<h1>Bebidas</h1>
+		<div class="container">
+			<div class="button-container">
+				<button id="alterar">Alterar</button>
+				<button id="novo">Novo</button>
+				<input type="text" id="search" placeholder="Pesquisar bebidas..." />
+				<button id="pesquisar">Pesquisar Por nome</button>
+			</div>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Id</th>
+						<th>Nome</th>
+						<th>Preço (R$)</th>
+						<th>Remoção</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			</table>
+		</div>
+
+		<dialog>
+			<h2 id="dialog-title">Nova Bebida</h2>
+			<form>
+				<label for="nome">Nome:</label>
+				<input type="text" id="nome" />
+				<label for="preco">Preço:</label>
+				<input type="number" id="preco" />
+				<button type="button" id="salvar">Salvar</button>
+				<button
+					type="button"
+					id="cancelar"
+					onclick="document.querySelector('dialog').close()"
+				>
+					Cancelar
+				</button>
+			</form>
+		</dialog>
+	</body>
+</html>

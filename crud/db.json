@@ -1,0 +1,39 @@
+{
+	"bebidas": [
+		{
+			"nome": "Coca-cola 2L",
+			"preco": 10,
+			"id": "1"
+		},
+		{
+			"nome": "Fanta Uva",
+			"preco": 10,
+			"id": "2"
+		},
+		{
+			"id": "3",
+			"nome": "Pepsi",
+			"preco": 10
+		},
+		{
+			"id": "4",
+			"nome": "Guaravita",
+			"preco": 2.5
+		},
+		{
+			"id": "5",
+			"nome": "Guaraviton de Açai",
+			"preco": 5
+		},
+		{
+			"id": "6",
+			"nome": "Fanta Laranja",
+			"preco": 10
+		},
+		{
+			"id": "7",
+			"nome": "Energético Monster",
+			"preco": 13
+		}
+	]
+}

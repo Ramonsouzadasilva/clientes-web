@@ -1,0 +1,31 @@
+1) Faça com que a página de bebidas exiba as
+   bebidas do servidor.
+
+2) Crie um formulário em cadastro.html, que
+   cadastre uma bebida no servidor e, em caso
+   de sucesso, redirecione o usuário para a
+   listagem de bebidas, após uma mensagem.
+
+3) Adicione a funcionalidade para remover uma
+   bebida da listagem de bebidas, através do
+   clique em um botão "Remover". Peça confirmação
+   ao usuário antes de remover e remova tanto
+   da tabela quanto do servidor.
+
+4) Adicione à listagem um diálogo (<dialog>)
+   com um formulário de alteração de bebida,
+   que seja aberto ao acionar uma opção "Alterar".
+   Faça com que a bebida seja alterada na tabela
+   e no servidor, ao confirmar a alteração.
+
+5) Modifique a aplicação para não mais utilizar a página
+   de cadastro e, ao invés, utilizar o mesmo diálogo
+   da questão 4, tanto para cadastro quanto para a alteração.
+   A operação deve ser realizada corretamente na tabela e no
+   servidor.
+
+6) Adicione a funcionalidade de pesquisa à listagem, de forma
+   que o usuário informe o texto que deseja pesquisar e acione
+   uma opção Pesquisar para trazer do servidor apenas as bebidas
+   correspondentes. O JSON-Server aceita filtrar os dados, logo,
+   consulte o site.
